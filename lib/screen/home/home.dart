@@ -64,6 +64,7 @@ class _HomeState extends State<Home> {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.start,
         children: [
+          Padding(padding: EdgeInsets.all(10), child:Icon(iconData, color:Colors.black)),
           Text(title),
         ],
       ),
